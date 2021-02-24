@@ -70,7 +70,7 @@ const Home = () => {
         <HomeStyle>
             <div className="container">
                 <div className="flexContainer">
-                    <h1>RSA Encryption By <span>Group</span> </h1>
+                    <h1>RSA Encryption By <span>Group 6</span> </h1>
                     <div className="inputGroup">
                         <label htmlFor="">Encrypt Message</label>
                         <textarea onChange={handleOnChange} value={message}></textarea>
