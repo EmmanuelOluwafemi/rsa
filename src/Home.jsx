@@ -54,7 +54,7 @@ const Home = () => {
     const handleEncrypt = () => {
         if (message !== '') {
             // Use Public key for encryption
-            let encryptedSrting = key_public.encrypt(message);
+            let encryptedSrting = key_public.encrypt(message, 'base64');
             setEncryptedValue(encryptedSrting);
             setEncryptedStatus(true);
         }
